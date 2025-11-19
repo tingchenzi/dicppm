@@ -1,0 +1,64 @@
+{
+  "name": "dic-crm3ppm-ui",
+  "version": "1.0.0",
+  "description": "天源迪科PPM动态表单插件 - 可复用的Vue 2.x组件库",
+  "main": "lib/dic-crm3ppm-ui.umd.min.js",
+  "module": "lib/dic-crm3ppm-ui.esm.js",
+  "unpkg": "lib/dic-crm3ppm-ui.umd.min.js",
+  "files": [
+    "lib",
+    "src"
+  ],
+  "scripts": {
+    "dev": "vue-cli-service serve examples/main.js",
+    "build": "vue-cli-service build --target lib --name dic-crm3ppm-ui --dest lib src/index.js",
+    "build:watch": "vue-cli-service build --target lib --name dic-crm3ppm-ui --dest lib src/index.js --watch",
+    "lint": "vue-cli-service lint",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "dic-crm3ppm-ui",
+    "dicppm",
+    "天源迪科",
+    "vue",
+    "ppm",
+    "dynamic-form",
+    "form-builder"
+  ],
+  "author": "天源迪科CRM3.0重构项目组(北京)-前端组",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yourcompany/dic-crm3ppm-ui.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourcompany/dic-crm3ppm-ui/issues"
+  },
+  "homepage": "https://github.com/yourcompany/dic-crm3ppm-ui#readme",
+  "peerDependencies": {
+    "vue": "^2.6.11",
+    "element-ui": "^2.8.2",
+    "vuex": "^3.4.0"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "lodash": "^4.17.21",
+    "moment": "^2.30.1"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^4.5.12",
+    "@vue/cli-plugin-eslint": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "babel-eslint": "^10.1.0",
+    "core-js": "^3.6.5",
+    "element-ui": "^2.8.2",
+    "eslint": "^6.7.2",
+    "eslint-plugin-vue": "^6.2.2",
+    "node-sass": "^4.14.1",
+    "sass-loader": "^8.0.2",
+    "vue": "^2.6.11",
+    "vue-router": "^3.2.0",
+    "vue-template-compiler": "^2.6.11",
+    "vuex": "^3.4.0"
+  }
+}

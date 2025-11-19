@@ -1,0 +1,24 @@
+# 源文件
+examples/
+docs/
+tests/
+.vscode/
+.idea/
+
+# 配置文件
+.eslintrc.js
+.prettierrc
+.editorconfig
+babel.config.js
+vue.config.js
+
+# Git
+.git/
+.gitignore
+
+# 其他
+*.md
+!README.md
+node_modules/
+.DS_Store
+*.log

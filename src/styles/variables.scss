@@ -1,0 +1,91 @@
+// base color
+$blue: #0052d9;
+$orange: #f56d39;
+$yellow: #fdb11f;
+$light-blue:#3A71A8;
+$red:red;
+$pink: #E65D6E;
+$green: #30B08F;
+$tiffany: #4AB7BD;
+$yellow:#FEC171;
+$panGreen: #30B08F;
+$g5entryOrange:#FF7400; //5g专线入口页图标颜色
+
+
+// 运营监控颜色样式统一
+$blue_yy: #75beff;
+
+// sidebar
+$menuText:#bfcbd9;
+$menuActiveText:#409EFF;
+$subMenuActiveText:#f4f4f5; // https://github.com/ElemeFE/element/issues/12951
+
+$menuBg:#304156;
+$menuHover:#263445;
+
+$subMenuBg:#1f2d3d;
+$subMenuHover:#001528;
+
+$sideBarWidth: 210px;
+
+// 字体颜色
+$textColor1:#333; // 一级标题颜色
+$textColor2:#666; // form-label颜色，二级字体颜色
+$textColor3:#999; // 浅色字体
+$grayColor2:#d5d5d5;// form 边框颜色
+$grayColor3:#eeeeee; // 表格边框颜色
+$grayColor4:#F2F2F2; // 表格背景灰色
+$grayColor5:#f6f7f9; // body背景色
+$grayColor6:#cbcbcb;
+$grayColor7:#cccccc;
+$boderBgColor:#f6f6f6;// 表单背景颜色
+$color_DDD:#DDDDDD;// 边框颜色
+
+
+// 字体大小
+$fontSize_v1:.16rem; // 一级标题
+$fontSize_v2:.15rem; // 二级标题
+$fontSize_v3:.14rem; // 三级标题
+$fontSize_base:.14rem; // 基础字体
+$fontSize_sm:.13rem;
+$fontSize_info:.12rem; // 描述类字体
+
+// the :export directive is the magic sauce for webpack
+// https://www.bluematador.com/blog/how-to-share-variables-between-js-and-sass
+:export {
+  menuText: $menuText;
+  menuActiveText: $menuActiveText;
+  subMenuActiveText: $subMenuActiveText;
+  menuBg: $menuBg;
+  menuHover: $menuHover;
+  subMenuBg: $subMenuBg;
+  subMenuHover: $subMenuHover;
+  sideBarWidth: $sideBarWidth;
+}
+
+%flex-center{
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  display: -moz-flex;
+  -moz-box-pack: justify;
+  -webkit-box-pack: justify;
+  box-pack: justify;
+  -moz-box-align: center;
+  -webkit-box-align: center;
+  box-align: center;
+  -moz-align-items: center;
+  align-items: center;
+  -webkit-align-items: center;
+}
+%flex-jian{
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  display: -moz-flex;
+  text-align: center;
+}

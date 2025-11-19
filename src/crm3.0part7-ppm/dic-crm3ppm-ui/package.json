@@ -1,0 +1,12 @@
+{
+  "name": "dic-crm3ppm-ui",
+  "version": "1.0.0",
+  "description": "天源迪科PPM动态表单页2021产品化项目(前端)",
+  "main": "dic-crm3ppm-ui.umd.min.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["dic-crm3ppm-ui","dicppm","天源迪科"],
+  "author": "天源迪科CRM3.0重构项目组(北京)-前端组",
+  "license": "ISC"
+}
