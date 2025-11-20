@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # dic-crm3ppm-ui
 
 天源迪科 PPM 动态表单插件 - 企业级 Vue 2.x 组件库
@@ -265,3 +266,7 @@ ISC © 天源迪科CRM3.0重构项目组
 
 - 邮箱: support@yourcompany.com
 - 项目主页: https://github.com/yourcompany/dic-crm3ppm-ui
+=======
+# dicppm
+dicppmui
+>>>>>>> 4d22608a632cf094da8929c66c6bbdf113aa6ee6
